@@ -1,12 +1,29 @@
-# React + Vite
+# MovieScreen Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a sleek and fast movie browsing web app built using **React + Vite** and styled with **Tailwind CSS**. It fetches real-time data from the **TMDB API**, allowing users to discover trending movies and search with an optimized, **Debounced search bar**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Optimized Search** with debounce using `useDebounce` from [`react-use`](https://github.com/streamich/react-use)
+- 🎞️ Browse **Trending Movies** from The Movie Database (TMDB)
+- 📃 View detailed information: title, overview, ratings, and more
+- ⚡ Super-fast development with **Vite**
+- 💅 Fully responsive and clean UI using **Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🔧 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [`react-use`](https://github.com/streamich/react-use) for debounce optimization
+
+
+## 💡 Debounced Search
+To avoid excessive API calls while the user is typing in the search bar, the app uses the useDebounce hook from react-use. This improves performance and enhances the user experience.
+
+
+## 📃 License
+This project is licensed under the MIT License.
