@@ -45,7 +45,7 @@ const App = () => {
         
       } catch (error) {
         console.log(error);
-        setErrorMessage('Error fetching movies . Please try again later.');
+        setErrorMessage('Error fetching movies . Please try again later Or switch to another service provider if you are using JIO ');
       } finally{
         setIsLoading(false)
       }
@@ -68,7 +68,7 @@ const App = () => {
         
       } catch (error) {
         console.log(error);
-        setErrorMessage('Error fetching search results');
+        setErrorMessage('Error fetching search results . Please switch to another service provider if you are using JIO ');
       } finally {
         setIsLoading(false);
       }
